@@ -1,0 +1,16 @@
+{
+	"LOADING": "Lade Speiseplan …",
+	"ERROR": "Fehler",
+	"TODAY": "Heute",
+	"TOMORROW": "Morgen",
+	"CLOSED": "heute kein Angebot",
+	"NOT_FOUND": "Mensa nicht gefunden",
+	"LABEL_VEGAN": "vegan",
+	"LABEL_VEGETARIAN": "vegetarisch",
+	"LABEL_POULTRY": "Geflügel",
+	"LABEL_BEEF": "Rind",
+	"LABEL_PORK": "Schwein",
+	"LABEL_FISH": "Fisch",
+	"LABEL_VITAL": "mensaVital",
+	"LABEL_LACTOSE_FREE": "laktosefrei"
+}

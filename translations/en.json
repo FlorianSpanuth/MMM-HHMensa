@@ -1,0 +1,16 @@
+{
+	"LOADING": "Loading menu …",
+	"ERROR": "Error",
+	"TODAY": "Today",
+	"TOMORROW": "Tomorrow",
+	"CLOSED": "nothing on the menu",
+	"NOT_FOUND": "canteen not found",
+	"LABEL_VEGAN": "vegan",
+	"LABEL_VEGETARIAN": "vegetarian",
+	"LABEL_POULTRY": "poultry",
+	"LABEL_BEEF": "beef",
+	"LABEL_PORK": "pork",
+	"LABEL_FISH": "fish",
+	"LABEL_VITAL": "mensaVital",
+	"LABEL_LACTOSE_FREE": "lactose-free"
+}

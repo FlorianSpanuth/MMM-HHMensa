@@ -1,0 +1,101 @@
+/* MMM-HHMensa – sizes in em/rem so the module scales with the mirror's font size */
+
+.hhmensa {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.hhmensa-head {
+	display: flex;
+	align-items: baseline;
+	gap: 0.6em;
+	margin-bottom: 0.5em;
+}
+
+.hhmensa-name {
+	font-size: var(--font-size-small);
+	color: var(--color-text-bright);
+}
+
+.hhmensa-day {
+	font-size: var(--font-size-xsmall);
+	color: var(--color-text-dimmed);
+}
+
+.hhmensa-dots {
+	margin-left: auto;
+	display: flex;
+	gap: 0.35em;
+	align-self: center;
+}
+
+.hhmensa-dots span {
+	width: 0.4em;
+	height: 0.4em;
+	border-radius: 50%;
+	background: var(--color-text-dimmed);
+	opacity: 0.5;
+}
+
+.hhmensa-dots span.on {
+	background: var(--color-text-bright);
+	opacity: 1;
+}
+
+.hhmensa-meal {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) auto;
+	column-gap: 0.8em;
+	align-items: baseline;
+	margin-bottom: 0.45em;
+}
+
+.hhmensa-category {
+	font-size: var(--font-size-xsmall);
+	color: var(--color-text-dimmed);
+	line-height: 1.2;
+}
+
+.hhmensa-dish {
+	font-size: var(--font-size-small);
+	color: var(--color-text);
+	line-height: 1.3;
+}
+
+.hhmensa-price {
+	font-size: var(--font-size-small);
+	color: var(--color-text-bright);
+	white-space: nowrap;
+	font-variant-numeric: tabular-nums;
+}
+
+.hhmensa-labels {
+	margin-left: 0.4em;
+}
+
+.hhmensa-label {
+	display: inline-block;
+	font-size: 0.7em;
+	line-height: 1.4;
+	padding: 0 0.4em;
+	margin-left: 0.25em;
+	border-radius: 0.6em;
+	color: var(--color-text-dimmed);
+	box-shadow: inset 0 0 0 1px currentColor;
+	vertical-align: middle;
+}
+
+.hhmensa-label.vegan { color: #6fcf6f; }
+.hhmensa-label.vegetarian { color: #b6d96b; }
+.hhmensa-label.vital { color: #5fb3e0; }
+
+.hhmensa-allergens {
+	font-size: var(--font-size-xsmall);
+	color: var(--color-text-dimmed);
+}
+
+/* header always left-aligned, also in centered regions (upper_third, top_center, …) */
+.module.MMM-HHMensa .module-header {
+	text-align: left;
+}

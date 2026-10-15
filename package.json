@@ -1,0 +1,31 @@
+{
+  "name": "mmm-hhmensa",
+  "version": "0.1.0",
+  "description": "What's for lunch today? Menus of the Hamburg university canteens (Studierendenwerk Hamburg) for MagicMirror² – several canteens in rotation, price, optional labels and allergens",
+  "main": "MMM-HHMensa.js",
+  "license": "MIT",
+  "author": "Florian Spanuth",
+  "keywords": [
+    "MagicMirror",
+    "MagicMirror2",
+    "Hamburg",
+    "Mensa",
+    "canteen",
+    "Studierendenwerk",
+    "menu"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "homepage": "https://github.com/FlorianSpanuth/MMM-HHMensa#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlorianSpanuth/MMM-HHMensa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FlorianSpanuth/MMM-HHMensa/issues"
+  }
+}
